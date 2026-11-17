@@ -1,0 +1,1 @@
+export function assess(questions,answers){const results=questions.map((q,i)=>({correct:Number(answers[i])===q.correct&&answers[i]!==undefined,answered:answers[i]!==undefined,feedback:q.feedback}));return {results,correct:results.filter(r=>r.correct).length,total:questions.length,complete:results.every(r=>r.answered)};}

@@ -1,0 +1,13 @@
+{
+  "name": "training-and-adoption",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A short learning experience that turns a vague status update into an actionable one.",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
